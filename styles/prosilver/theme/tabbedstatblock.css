@@ -1,0 +1,29 @@
+.headerspace, .forabg ~.stat-block {
+	display: none;
+}
+
+div.stat-block.online-list-tab,
+div.stat-block.birthday-list-tab,
+div.stat-block.statistics-tab {
+	display: block;
+}
+
+fieldset.tab-stat-block {
+	font-size: 1em;
+}
+
+fieldset.tab-stat-block p {
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+
+@media (max-width: 700px) {
+	.tab-stat-block #tabs {
+		margin-left: -5px;
+	}
+	
+	.tab-stat-block a {
+		border-radius: 0 !important;
+		margin-left: 0;
+	}
+}
