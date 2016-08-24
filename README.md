@@ -15,6 +15,8 @@
 2. Look for `Tabbed profile view` under the Enabled Extensions list, and click its `Disable` link.
 3. To permanently uninstall, click `Delete Data` and then delete the `/ext/zyleta/tabbedstatblock` folder.
 
+#For extensions writers
+
 ## Add tabs
 
 If You wanna add another element on tablist, use event called `tabbed_stat_block_tablist_append` (if You wanna add a tab on first from right position) or `tabbed_stat_block_tablist_prepend` (first from right position).
