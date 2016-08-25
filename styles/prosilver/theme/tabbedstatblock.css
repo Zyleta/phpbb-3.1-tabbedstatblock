@@ -1,11 +1,7 @@
-.headerspace, .forabg ~.stat-block {
+.headerspace, .forabg ~.stat-block.online-list,
+.headerspace, .forabg ~.stat-block.birthday-list,
+.headerspace, .forabg ~.stat-block.statistics {
 	display: none;
-}
-
-div.stat-block.online-list-tab,
-div.stat-block.birthday-list-tab,
-div.stat-block.statistics-tab {
-	display: block;
 }
 
 fieldset.tab-stat-block {
