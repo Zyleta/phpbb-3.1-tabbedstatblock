@@ -2,7 +2,7 @@
     "name": "zyleta/tabbedstatblock",
     "type": "phpbb-extension",
     "description": "This extension change stat-block view into tabs.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "time": "2016-08-24",
     "license": "GPL-2.0",
     "authors": [
